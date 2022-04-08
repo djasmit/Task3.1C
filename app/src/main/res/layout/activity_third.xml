@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    tools:context=".ThirdActivity">
+
+    <TextView
+        android:id="@+id/congratsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Congratulations, name!"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/yourScoreText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YOUR SCORE:"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="score/total"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/restart_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="backClick"
+        android:text="Take New Quiz"
+        />
+
+    <Button
+        android:id="@+id/quit_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="quitClick"
+        android:text="Finish"
+        />
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SIT305 Quiz App</string>
+    <string name="no_input_error">Please enter a name.</string>
+</resources>
